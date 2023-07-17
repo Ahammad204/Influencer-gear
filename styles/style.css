@@ -1,5 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800;900&display=swap');
 
+/* Shared style */
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Playfair Display', serif;
 }
+:root{
+    --btn-color:rgba(224, 44, 109, 1);
+    --text-color:rgba(58, 58, 58, 1);
+    
+}
+
+/* Nav section style */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+.nav-img-1{
+    width: 24px;
+    height: 24px;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+nav li{
+    list-style: none;
+    
+    
+}
+nav a {
+    text-decoration: none; 
+    color: var(--text-color);  
+}
+.nav-title{
+    color: var(--text-color);
+}
+

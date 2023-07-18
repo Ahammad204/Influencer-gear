@@ -170,8 +170,27 @@ nav a {
     color: var(--text-color);
 }
 
-
-
+/* footer section styles */
+.footer-section{
+    margin-top: 80px;
+    background-color: #0A0826;
+    color: antiquewhite;
+    height: 230px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+   
+}
+.footer-section p{
+    color: antiquewhite;
+    margin-top: 10px;
+}
+.social-icon img{
+    margin: 10px;
+    cursor: pointer;
+}
 
 
 @media screen and (max-width:576px) {
@@ -241,6 +260,12 @@ nav a {
         margin-left: 30px;
         margin-right: 30px;
         margin-top: 80px;
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .featured-details{
+        margin-bottom: 20px;
+    }
+    .featured-image{
+        margin-left: -30px;
     }
 }

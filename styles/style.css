@@ -195,10 +195,11 @@ nav a {
     }
     .sponsors-img{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
          
      }
+   
     /* Collection styles */
     .collection-section{
         margin-left: 20px;

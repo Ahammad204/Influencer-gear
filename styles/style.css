@@ -149,6 +149,9 @@ nav a {
 .card-btn-img{
     color: var(--btn-color);
 }
+
+
+
 @media screen and (max-width:576px) {
     nav li, .nav-img-1 {
         display: none;
@@ -196,6 +199,17 @@ nav a {
         gap: 20px;
          
      }
-
+    /* Collection styles */
+    .collection-section{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card img{
+       height: 300px;
+       
+    }
 }
